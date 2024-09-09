@@ -27,6 +27,30 @@ Individual favourite food
 
 ## Exercise 4: Get to know the data
 
+Count the number of rows and columns
+
+dim(survey)
+
+Count the number of rows
+
+nrow(survey)
+
+# Replace this with a comment on what head() does
+
+head(survey)
+
+# Replace this with a comment on what head(\_\_\_, 3) does
+
+head(survey, 3)
+
+# Replace this with a comment on what tail() does
+
+tail(survey)
+
+# Replace this with a comment on what names() does
+
+names(survey)
+
 ## Exercise 5: Data structure
 
 ## Exercise 6: Your turn
