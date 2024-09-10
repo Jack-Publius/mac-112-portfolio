@@ -9,6 +9,8 @@ The **water** is *better* than the dorm's ![](https://sodasense.com/cdn/shop/art
 
 ## Exercise 2: Import tidy data
 
+# Import the data
+
 survey \<- read.csv("https://mac-stat.github.io/data/112_fall_2024_survey.csv")
 
 ## Exercise 3: Tidy data properties
@@ -35,19 +37,19 @@ Count the number of rows
 
 nrow(survey)
 
-# Replace this with a comment on what head() does
+Provide the first n rows of the survey
 
 head(survey)
 
-# Replace this with a comment on what head(\_\_\_, 3) does
+Provide the first 3 rows of the survey
 
 head(survey, 3)
 
-# Replace this with a comment on what tail() does
+Return the last part of the survey
 
 tail(survey)
 
-# Replace this with a comment on what names() does
+Provide titles of the survey
 
 names(survey)
 
