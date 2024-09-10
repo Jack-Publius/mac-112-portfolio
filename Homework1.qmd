@@ -90,3 +90,7 @@ names(soccer)="year" "host" "winner" "second" "third" "fourth" "goals_scored" "t
 str(soccer)
 
 ## Exercise 7: Brainstorm
+
+- Which country is the winner in the World Cup of 2006?
+- Which country is the host of the World Cup of 1970?
+- When did the amount of team change to 32?
