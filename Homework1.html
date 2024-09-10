@@ -104,10 +104,36 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="exercise-5-data-structure" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-5-data-structure">Exercise 5: Data structure</h2>
+<p>Obtain the overall class of the survey object</p>
+<p>class(survey)</p>
+<p>Examine the structure of each variable within survey (including class)</p>
+<p>Just take note of what information we gain here (no need to write more)</p>
+<p>str(survey)</p>
 </section>
 <section id="exercise-6-your-turn" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-6-your-turn">Exercise 6: Your turn</h2>
 </section>
+</section>
+<section id="import-and-name-the-dataset-you-pick-a-name" class="level1">
+<h1>Import and name the dataset (you pick a name!)</h1>
+<p>soccer &lt;- read.csv(“https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-11-29/worldcups.csv”)</p>
+</section>
+<section id="print-the-first-6-rows-of-the-dataset" class="level1">
+<h1>Print the first 6 rows of the dataset</h1>
+<p>head(soccer)</p>
+</section>
+<section id="how-many-years-of-data-do-we-have-and-how-many-measurements-do-we-have-on-each-year" class="level1">
+<h1>How many years of data do we have? And how many measurements do we have on each year?</h1>
+<p>dim(soccer)</p>
+<p>Years of data=21 Measurements=10</p>
+</section>
+<section id="get-a-list-of-all-variable-names-in-the-dataset" class="level1">
+<h1>Get a list of all variable names in the dataset</h1>
+<p>names(soccer)=“year” “host” “winner” “second” “third” “fourth” “goals_scored” “teams” “games” “attendance”</p>
+</section>
+<section id="display-the-class-and-other-information-for-each-variable-in-the-dataset" class="level1">
+<h1>Display the class and other information for each variable in the dataset</h1>
+<p>str(soccer)</p>
 <section id="exercise-7-brainstorm" class="level2">
 <h2 class="anchored" data-anchor-id="exercise-7-brainstorm">Exercise 7: Brainstorm</h2>
 </section>

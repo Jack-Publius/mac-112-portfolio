@@ -55,6 +55,38 @@ names(survey)
 
 ## Exercise 5: Data structure
 
+Obtain the overall class of the survey object
+
+class(survey)
+
+Examine the structure of each variable within survey (including class)
+
+Just take note of what information we gain here (no need to write more)
+
+str(survey)
+
 ## Exercise 6: Your turn
+
+# Import and name the dataset (you pick a name!)
+
+soccer \<- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-11-29/worldcups.csv")
+
+# Print the first 6 rows of the dataset
+
+head(soccer)
+
+# How many years of data do we have? And how many measurements do we have on each year?
+
+dim(soccer)
+
+Years of data=21 Measurements=10
+
+# Get a list of all variable names in the dataset
+
+names(soccer)="year" "host" "winner" "second" "third" "fourth" "goals_scored" "teams" "games" "attendance"
+
+# Display the class and other information for each variable in the dataset
+
+str(soccer)
 
 ## Exercise 7: Brainstorm
