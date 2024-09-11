@@ -1,7 +1,4 @@
----
-title: "Homework1"
-editor: visual
----
+
 
 ## Exercise 1: Warming up
 
@@ -9,7 +6,7 @@ The **water** is *better* than the dorm's ![](https://sodasense.com/cdn/shop/art
 
 ## Exercise 2: Import tidy data
 
-# Import the data
+**Import the data**
 
 survey \<- read.csv("https://mac-stat.github.io/data/112_fall_2024_survey.csv")
 
@@ -29,27 +26,27 @@ Individual favourite food
 
 ## Exercise 4: Get to know the data
 
-Count the number of rows and columns
+**Count the number of rows and columns**
 
 dim(survey)
 
-Count the number of rows
+**Count the number of rows**
 
 nrow(survey)
 
-Provide the first n rows of the survey
+**Provide the first n rows of the survey**
 
 head(survey)
 
-Provide the first 3 rows of the survey
+**Provide the first 3 rows of the survey**
 
 head(survey, 3)
 
-Return the last part of the survey
+**Return the last part of the survey**
 
 tail(survey)
 
-Provide titles of the survey
+**Provide titles of the survey**
 
 names(survey)
 
@@ -67,30 +64,30 @@ str(survey)
 
 ## Exercise 6: Your turn
 
-# Import and name the dataset (you pick a name!)
+**Import and name the dataset (you pick a name!)**
 
 soccer \<- read.csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2022/2022-11-29/worldcups.csv")
 
-# Print the first 6 rows of the dataset
+**Print the first 6 rows of the dataset**
 
 head(soccer)
 
-# How many years of data do we have? And how many measurements do we have on each year?
+**How many years of data do we have? And how many measurements do we have on each year?**
 
 dim(soccer)
 
 Years of data=21 Measurements=10
 
-# Get a list of all variable names in the dataset
+**Get a list of all variable names in the dataset**
 
 names(soccer)="year" "host" "winner" "second" "third" "fourth" "goals_scored" "teams" "games" "attendance"
 
-# Display the class and other information for each variable in the dataset
+**Display the class and other information for each variable in the dataset**
 
 str(soccer)
 
 ## Exercise 7: Brainstorm
 
-- Which country is the winner in the World Cup of 2006?
-- Which country is the host of the World Cup of 1970?
-- When did the amount of team change to 32?
+-   Which country is the winner in the World Cup of 2006?
+-   Which country is the host of the World Cup of 1970?
+-   When did the amount of team change to 32?
