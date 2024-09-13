@@ -310,7 +310,7 @@ ggplot(hikes, aes(x = rating)) +
 ```
 
 ```{r}
-# labs(x = "Rating", y = "Number of hikes") The name of the y-axis becomes to "Number of hikes" that of the x-axis become to "rating"
+# labs(x = "Rating", y = "Number of hikes") The name of the y-axis becomes to "Number of hikes" that of the x-axis becomes to "rating"
 ggplot(hikes, aes(x = rating)) +
   geom_bar() +
   labs(x = "Rating", y = "Number of hikes")
@@ -324,14 +324,14 @@ ggplot(hikes, aes(x = rating)) +
 ```
 
 ```{r}
-# Change in geom_bar(color = "orange", fill = "blue") The 
+# Change in geom_bar(color = "orange", fill = "blue") The frame of the graph becomes to orange
 ggplot(hikes, aes(x = rating)) +
   geom_bar(color = "orange", fill = "blue") +
   labs(x = "Rating", y = "Number of hikes")
 ```
 
 ```{r}
-# COMMENT on the change in the code and the corresponding change in the plot
+# theme_minimal() has been added at the end of the code.The background of the graph becomes transparent.
 ggplot(hikes, aes(x = rating)) +
   geom_bar(color = "orange", fill = "blue")  +
   labs(x = "Rating", y = "Number of hikes") +
@@ -350,19 +350,25 @@ ggplot(hikes, aes(x = rating)) +
 Reflect on the `ggplot()` code.
 
 -   What's the purpose of the `+`? When do we use it?
+ It is used to add new features to the graph. We used it when we need to make changes to the basic graph.
 
 -   We added the bars using `geom_bar()`? Why "geom"?
+It stands for we use the geometric shape  in the bar chart
 
 -   What does `labs()` stand for?
+Used to modify axis
 
 -   What's the difference between `color` and `fill`?
+"fill" will decide the main color of the graph; and "color" will decide the color of only the frame.
 
 ### Part b {.unnumbered}
 
 In general, bar charts allow us to examine the following properties of a *categorical* variable:
 
 -   **observed categories**: What categories did we observe?
+Difficult, easy and moderate categories.
 -   **variability between categories**: Are observations evenly spread out among the categories, or are some categories more common than others?
+The moderate category is the most common one, which is much more common than others
 
 We must then *translate* this information into the *context* of our analysis, here hikes in the Adirondacks. Summarize here what you learned from the bar chart, in context.
 
